@@ -1,0 +1,56 @@
+/* All Products */
+.all_section {
+  padding: var(--section-padding) 0;
+}
+.all_section .main_heading {
+  margin-bottom: 1.4rem !important;
+}
+.all_section .categ {
+  justify-content: center;
+  gap: 1.6rem;
+  margin-bottom: 10rem;
+}
+.all_section .categ span {
+  font-size: 1.6rem;
+  color: var(--dark-p-color);
+  cursor: pointer;
+}
+.categ--active {
+  color: #000 !important;
+  position: relative;
+}
+.all_section .products_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+.pagination {
+  justify-content: center;
+  gap: 1rem;
+}
+.pagination .page_num {
+  font-size: 1.8rem;
+  color: var(--dark-p-color);
+  background-color: var(--bcg4-color);
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--main-transition);
+}
+.page_num--active {
+  background-color: #fff !important;
+}
+.next_page {
+  cursor: pointer;
+}
+.next_page i {
+  font-size: 1.6rem;
+  color: var(--dark-p-color);
+}
+.next_page i:last-child {
+  margin-left: -0.5rem;
+}

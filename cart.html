@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="./media/Webclip.png" />
+    <link rel="icon" type="image/png" href="./media/Webclip.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0" />
+    <meta name="description" content="OTBT Web" />
+    <title>KickSpace -</title>
+    <!-- GOUGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GENERAL CSS FILE -->
+    <link rel="stylesheet" href="css/general.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--Cart CSS FILE -->
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <header class="header hidden">
+      <div class="container">
+        <nav class="nav flex">
+          <a href="index.html"
+            ><div class="logo"><span>kick</span>Space</div></a
+          >
+          <ul class="nav_list links flex">
+            <li class="nav_link middle link middle--active">
+              <a href="#">Men</a>
+            </li>
+            <li class="nav_link middle link"><a href="#">Women</a></li>
+            <li class="nav_link middle link"><a href="#">Features</a></li>
+            <li class="nav_link middle link"><a href="#">Solde</a></li>
+          </ul>
+          <div class="nav_icons links flex">
+            <div class="icon_container nav_link favorite_btn">
+              <i class="fa-regular fa-heart"></i><span class="flex">2</span>
+            </div>
+            <a href="./cart.html" class="icon_container nav_link cart_btn">
+              <i class="fa-solid fa-cart-shopping"></i
+              ><span class="flex">3</span>
+            </a>
+            <div class="nav_icon hidden">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="cart hidden">
+      <div class="pages container">
+        <a href="./index.html">Home / </a><a href="./cart.html">Cart</a>
+      </div>
+      <section class="cart_section">
+        <div class="container">
+          <div class="cart_products">
+            <div class="cart_product flex">
+              <div class="product_content">
+                <div class="cart_img">
+                  <img
+                    src="./media/Jordan Retro 2/01.png"
+                    alt="Jordan Retro 2"
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name">Jordan Retro 2</h3>
+                  <ul class="details">
+                    <li class="flex">
+                      <h4>Taille</h4>
+                      <span>40, 42</span>
+                    </li>
+                    <li class="flex">
+                      <h4>Qte</h4>
+                      <span>2</span>
+                    </li>
+                    <li class="flex">
+                      <h4>Price</h4>
+                      <span>€ 159.99</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+            <div class="cart_product flex">
+              <div class="product_content">
+                <div class="cart_img">
+                  <img
+                    src="./media/adidas Superstar/01.png"
+                    alt="adidas Superstar"
+                  />
+                </div>
+                <div class="info">
+                  <h3 class="name">adidas Superstar</h3>
+                  <ul class="details">
+                    <li class="flex">
+                      <h4>Taille</h4>
+                      <span>42</span>
+                    </li>
+                    <li class="flex">
+                      <h4>Qte</h4>
+                      <span>1</span>
+                    </li>
+                    <li class="flex">
+                      <h4>Price</h4>
+                      <span>€ 129.99</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="cart_summary">
+            <div class="summary_details">
+              <h3 class="summary_heading">Summary</h3>
+              <ul>
+                <li class="summary_row flex">
+                  <h4>Order Total</h4>
+                  <span>€ 319.98</span>
+                </li>
+                <li class="summary_row flex">
+                  <h4>Offer</h4>
+                  <span>-20%</span>
+                </li>
+                <li class="summary_row flex">
+                  <h4>Shipping</h4>
+                  <span>€ 7.5</span>
+                </li>
+                <li class="summary_row flex">
+                  <h4>Lead Time</h4>
+                  <span>2-3 days</span>
+                </li>
+              </ul>
+              <div class="summary_row summary_total flex">
+                <h4>Subtotal</h4>
+                <span>€ 275.00</span>
+              </div>
+            </div>
+            <button class="main_btn">Get My Order</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="favorite_section hidden">
+      <div class="fav_heading">
+        <h3 class="favorite_title">Favorite</h3>
+        <i class="fa-solid fa-xmark close_icon"></i>
+      </div>
+      <div class="favorite_container">
+        <div class="favorite_item flex">
+          <div class="item_content flex">
+            <div class="favorite_img">
+              <img src="./media/Nike Dunk Low//01.png" alt="Nike Dunk Low" />
+            </div>
+            <div class="info">
+              <h4 class="name">Nike Dunk Low</h4>
+              <div class="flex">
+                <span class="price">€ 119,99</span>
+                <div class="stars flex">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icons flex">
+            <i class="fa-solid fa-heart"></i>
+            <div class="icon_container flex">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="favorite_container">
+        <div class="favorite_item flex">
+          <div class="item_content flex">
+            <div class="favorite_img">
+              <img src="./media/Puma Slipstream/01.png" alt="Puma Slipstream" />
+            </div>
+            <div class="info">
+              <h4 class="name">Puma Slipstream</h4>
+              <div class="flex">
+                <span class="price">€ 119,99</span>
+                <div class="stars flex">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icons flex">
+            <i class="fa-solid fa-heart"></i>
+            <div class="icon_container flex">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="favorite_container">
+        <div class="favorite_item flex">
+          <div class="item_content flex">
+            <div class="favorite_img">
+              <img
+                src="./media/New Balance 2002R/01.png"
+                alt="New Balance 2002R"
+              />
+            </div>
+            <div class="info">
+              <h4 class="name">New Balance 2002R</h4>
+              <div class="flex">
+                <span class="price">€ 109,99</span>
+                <div class="stars flex">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-regular fa-star"></i
+                  ><i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icons flex">
+            <i class="fa-solid fa-heart"></i>
+            <div class="icon_container flex">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="shipping hidden flex">
+      <div class="shipping_car">
+        <img src="/media/Shipping.png" alt="Shipping car" />
+      </div>
+      <div class="circle_box hidden">
+        <div class="circle_wrapper circle_wrapper--right">
+          <div class="circle_whole circle_right"></div>
+        </div>
+        <div class="circle_wrapper circle_wrapper--left">
+          <div class="circle_whole circle_left"></div>
+        </div>
+      </div>
+      <div class="check_mark hidden"></div>
+    </div>
+    <footer id="footer" class="footer hidden">
+      <div class="container">
+        <div class="footer_content">
+          <div class="column">
+            <a href="#hero"
+              ><div class="logo"><span>kick</span>Space</div></a
+            >
+            <p class="footer_item">Contact Us For More Infos</p>
+            <form class="footer_form flex">
+              <input type="email" placeholder="Your Email" />
+              <a href="#" class="flex"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </form>
+          </div>
+          <div class="column">
+            <h4>Snickers</h4>
+            <ul class="footer_list">
+              <li class="footer_item"><a href="#">New Arrivals</a></li>
+              <li class="footer_item"><a href="#">Best Seller</a></li>
+              <li class="footer_item"><a href="#">All Products</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Features</h4>
+            <ul class="footer_list">
+              <li class="footer_item"><a href="#">Quality Guarantee</a></li>
+              <li class="footer_item"><a href="#">FAst Shipping</a></li>
+              <li class="footer_item"><a href="#">Rating System</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Contact Us</h4>
+            <ul class="footer_list">
+              <li class="footer_item">
+                <a href="mailto:kick@gmail.com">kick@gmail.com</a>
+              </li>
+              <li class="footer_item">
+                <a href="tel:0689659868">+212 689-659868</a>
+              </li>
+              <li class="footer_item"><a href="#">Casablanca</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Stay Current</h4>
+            <p class="footer_item">Join Our Social</p>
+            <ul class="links social_links flex">
+              <li class="link">
+                <a
+                  href="https://www.facebook.com/otma.ne.7583/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li class="link">
+                <a href="https://www.instagram.com/0thmvnee/" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li class="link">
+                <a href="https://twitter.com/bouchta_othmane" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright">&copy;2023 - KickSpace</p>
+      </div>
+    </footer>
+    <div class="overlay1 hidden"></div>
+    <div class="overlay2 hidden"></div>
+    <div class="loader_content flex">
+      <div class="ring-of-dots"></div>
+    </div>
+    <script src="js/general.js"></script>
+  </body>
+</html>
